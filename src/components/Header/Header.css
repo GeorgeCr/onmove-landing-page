@@ -23,3 +23,9 @@ ul {
 li:not(:last-of-type) {
     margin-right: 8%;
 }
+
+li{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+}
