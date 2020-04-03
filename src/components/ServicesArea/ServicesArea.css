@@ -1,0 +1,12 @@
+.services-area-container{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 100vh;
+    padding: 120px 0;
+    background-image: url(../../assets/bg-services.svg);
+    background-size: cover;
+    background-position: bottom;
+}
+.services-area-container .area-title{
+    margin:0;
+}

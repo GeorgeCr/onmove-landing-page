@@ -2,22 +2,23 @@
     display: flex;
     height: 100vh;
     padding: 120px 0;
-    background-image: url(../../assets/about-bg.png);
-    background-size: contain;
-    background-position: center bottom;
-    background-repeat: no-repeat;
     align-content: center;
+    background-image: url("../../assets//bg-about.svg");
+    background-size: cover;
 }
 .right-panel-about{
     display: flex;
+    align-content: center;
     flex-direction: column;
     margin:0 100px;
     }
 
 .left-panel-about{
     background-image: url(../../assets/foto-about-us.png);
-    width:150%;
-    background-size: contain;
+    width:180%;
+    height:100%;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     margin-left:20px;
 }

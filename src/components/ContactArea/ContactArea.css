@@ -1,0 +1,8 @@
+.contact-area-container{
+    display: flex;
+    height: 100vh;
+    padding: 120px 0;
+    align-content: center;
+    background-image: url(../../assets/bg-contact.svg);
+    background-size: cover;
+}
