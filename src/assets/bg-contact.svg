@@ -1,0 +1,8 @@
+<svg id="bg-contact" xmlns="http://www.w3.org/2000/svg" width="1920" height="1113" viewBox="0 0 1920 1113">
+  <rect id="Rectangle_21" data-name="Rectangle 21" width="1920" height="1113" fill="#f9fec5"/>
+  <g id="Group_17" data-name="Group 17" transform="translate(0 31.667)">
+    <path id="Path_3" data-name="Path 3" d="M-9.091,800.5c808.755-1.158,1195.361-39.614,1465.322,20.409,369.539,82.163,452.678,270,452.678,270V678.152h-1918Z" transform="translate(11.091 -604.152)" fill="#ffd500" style="mix-blend-mode: color-burn;isolation: isolate"/>
+    <path id="Path_2" data-name="Path 2" d="M-9.091,831.5c674.92-.966,917.106-8.591,1377.607,47.409s540.393,212,540.393,212V709.152h-1918Z" transform="translate(9.091 -678.152)" fill="#fbedab" style="mix-blend-mode: darken;isolation: isolate"/>
+    <path id="Path_1" data-name="Path 1" d="M-9.091,904.167c1911.959-2.737,1918,186.743,1918,186.743V781.818h-1918Z" transform="translate(11.091 -781.818)" fill="#f9df5c"/>
+  </g>
+</svg>

@@ -1,0 +1,33 @@
+.about-area-container{
+    display: flex;
+    height: 100vh;
+    padding: 120px 0;
+    align-content: center;
+    background-image: url("../../assets//bg-about.svg");
+    background-size: cover;
+}
+.right-panel-about{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    margin:0 100px;
+    }
+
+.left-panel-about{
+    background-image: url(../../assets/foto-about-us.png);
+    width:180%;
+    height:100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left:20px;
+}
+
+.area-title{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.right-panel-about p{
+    font-size: 16px;
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1078" viewBox="0 0 1920 1078">
+  <g id="bg-services" transform="translate(6 -3240)">
+    <g id="bg-services-2" data-name="bg-services" transform="translate(0 204)">
+      <rect id="Rectangle_24" data-name="Rectangle 24" width="1918" height="115" transform="translate(-6 3999)" fill="#f9fec5"/>
+      <rect id="bg" width="1918" height="759" transform="translate(-6 3240)" fill="#009f5a"/>
+    </g>
+    <path id="bg-feedback" d="M0,0H1918V236H0Z" transform="translate(-4 3240)" fill="#f9df5c"/>
+  </g>
+</svg>
