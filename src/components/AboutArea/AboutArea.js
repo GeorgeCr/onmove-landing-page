@@ -19,6 +19,7 @@ export default class AboutArea extends React.Component{
                 Copiii beneficiază de securitate, siguranță și confort pe timpul transportului, dar și de un mediu în care pot socializa și lega prietenii.
                 </p>
                </div>
+               <div className="style-line"></div>
            </div> 
         )
     }

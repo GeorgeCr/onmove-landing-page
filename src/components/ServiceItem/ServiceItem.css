@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 35%;
+    width: 30%;
     background-color: #fff;
     border-radius: 15px;
     padding: 40px;
@@ -15,7 +15,7 @@
 }
 
 .service-price {
-    font-size: 32px;
+    font-size: 36px;
     font-weight: bold;
 }
 

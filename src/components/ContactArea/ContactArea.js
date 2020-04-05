@@ -20,10 +20,10 @@ export default class BenefitsArea extends React.Component {
                         </div>
                     </div>
                     <div className="right-details">
-                        <p className="subscribe">
+                        <span className="subscribe">
                             Abonează-te la newsletter
-                        </p>
-                        <input type="email" placeholder="email@gmail.com" />
+                        </span>
+                        <input type="email" placeholder="email@gmail.com"/>
                         <button className="subscribe-button">Abonează-te</button>
                     </div>
                </div>
