@@ -1,12 +1,29 @@
-.services-area-container{
+.services-area-container {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     height: 100vh;
     padding: 120px 0;
     background-image: url(../../assets/bg-services.svg);
     background-size: cover;
     background-position: bottom;
 }
-.services-area-container .area-title{
-    margin:0;
+
+.services-area-container .area-title {
+    margin: 0; 
+}
+
+.services-area-container h2.area-title {
+    text-align: right;
+    padding-right: 50px;
+    margin-bottom: 20px;
+}
+
+.services-list {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.services-list .service-item-container:last-child {
+    margin-left: 100px;
+    margin-right: 50px;
 }

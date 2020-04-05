@@ -1,0 +1,29 @@
+.service-item-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 40px;
+}
+
+.service-type {
+    width: 100%;
+    text-align: left;
+}
+
+.service-price {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.service-type {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.service-details {
+    margin: 0;
+}
