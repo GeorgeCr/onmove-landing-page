@@ -1,0 +1,22 @@
+.benefit-item-container {
+    border: 1px solid #009F5A;
+    width: 100%;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.benefit-item-container:not(:last-of-type) {
+    margin-right: 30px;
+}
+
+.benefit-text {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+}
