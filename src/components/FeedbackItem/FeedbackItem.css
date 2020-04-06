@@ -17,3 +17,14 @@
 .feedback-name{
     text-align: end;
 }
+
+@media (max-width:450px){
+    .feedback-item-container{
+        width:100%;
+        padding:20px;
+        margin-bottom: 10px;;
+    }
+    .feedback-photo{
+        width:70px;
+    }
+}

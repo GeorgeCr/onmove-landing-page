@@ -2,7 +2,7 @@ import React from 'react';
 import './Header.css';
 import LogoImg from '../../assets/logo.svg';
 
-const Logo = () => <img src={LogoImg} alt="logo" />
+const Logo = () => <img src={LogoImg} alt="logo"/>
 
 export default class Header extends React.Component {
     render() {

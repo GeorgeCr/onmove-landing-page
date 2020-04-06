@@ -20,3 +20,15 @@
     margin: 0;
     text-align: center;
 }
+@media (max-width:350px){
+    .benefit-text{
+        font-size: 16px;
+    }
+    .benefit-item-container{
+        padding:10px;
+        margin-bottom: 20px;
+    }
+    .benefit-icon{
+        width:70px;
+    }
+}
