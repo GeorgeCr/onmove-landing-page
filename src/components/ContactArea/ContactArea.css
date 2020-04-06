@@ -1,8 +1,73 @@
 .contact-area-container{
     display: flex;
-    height: 100vh;
-    padding: 120px 0;
+    flex-direction: column;
+    height: 100%;
+    padding: 200px 200px;
     align-content: center;
     background-image: url(../../assets/bg-contact.svg);
     background-size: cover;
+}
+
+.contact-details-wrapper{
+    display:grid;
+    grid-template-columns: auto auto 1fr;
+    column-gap: 50px;
+}
+
+.left-details{
+    display:flex;
+    flex-direction: column;
+}
+
+.email, .postal-code{
+    margin-bottom: 30px;;
+}
+
+.social-details{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    width:100px;
+}
+
+.phone,.email,.address,.postal-code,.subscribe{
+    font-weight: bold;
+    font-size: 18px;
+}
+.subscribe{
+    font-size:24px;
+}
+
+.right-details{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    width:350px;
+    border-radius: 10px;
+    border:1px solid black;
+    padding:10px;
+    margin:15px 0;
+    font-size: 16px;
+}
+
+.subscribe-button{
+    border: 0;
+    outline: 0;
+    background-color: #000;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 30px;
+    width:200px;
+}
+.subscribe-button:hover{
+    background-color: rgb(39, 39, 39);
+}
+.subscribe-button:active{
+    background-color:#F9DF5C;
+    color:black;
 }

@@ -19,8 +19,6 @@ function App() {
       <ServicesArea />
       <FeedbackArea />
       <ContactArea />
-      <div className="fucking-line">
-      </div>
     </div>
   );
 }

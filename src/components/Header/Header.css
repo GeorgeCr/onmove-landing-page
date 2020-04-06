@@ -28,4 +28,9 @@ li{
     font-weight: bold;
     text-transform: uppercase;
     font-size: 14px;
+    padding-bottom: 5px;
+}
+
+li:hover{
+ border-bottom: 2px solid black;
 }

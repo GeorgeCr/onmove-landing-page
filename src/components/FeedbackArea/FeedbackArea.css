@@ -1,8 +1,13 @@
 .feedback-area-container{
     display: flex;
-    height: 100vh;
-    padding: 120px 0;
+    flex-direction: column;
+    height: 100%;
+    padding: 120px 0 120px 200px;
     align-content: center;
     background-image: url(../../assets/bg-feedback.svg);
     background-size: cover;
+}
+
+.feedback-wrapper{
+    display: flex;
 }

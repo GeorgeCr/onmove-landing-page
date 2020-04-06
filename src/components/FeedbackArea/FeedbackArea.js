@@ -8,6 +8,8 @@ export default class BenefitsArea extends React.Component {
         return(
             <div className="feedback-area-container">
                <h2 className="area-title">părerile clienților noștri</h2>
+               
+               <div className="feedback-wrapper">              
                {
                    feedbackData.map((item, index) => {
                        return (
@@ -20,6 +22,7 @@ export default class BenefitsArea extends React.Component {
                        )
                    })
                }
+               </div>
                 
            </div> 
         )
