@@ -20,7 +20,7 @@
     margin: 0;
     text-align: center;
 }
-@media (max-width:350px){
+@media (max-width:450px){
     .benefit-text{
         font-size: 16px;
     }
@@ -30,5 +30,9 @@
     }
     .benefit-icon{
         width:70px;
+    }
+
+    .benefit-item-container:not(:last-of-type) {
+        margin-right: 0px;
     }
 }

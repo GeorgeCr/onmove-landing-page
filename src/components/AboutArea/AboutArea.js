@@ -4,7 +4,7 @@ import './AboutArea.css';
 export default class AboutArea extends React.Component{
     render(){
         return (
-           <div className="about-area-container">
+           <div id="about" className="about-area-container">
                <div className="left-panel-about">
                </div>
                <div className="right-panel-about">

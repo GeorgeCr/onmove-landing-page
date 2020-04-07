@@ -6,7 +6,7 @@ import Mail from '../../assets/mail.png';
 export default class BenefitsArea extends React.Component {
     render(){
         return(
-            <div className="contact-area-container">
+            <div id="contact" className="contact-area-container">
                <h2 className="area-title">date de contact</h2>
                <div className="contact-details-wrapper">
                     <div className="left-details">

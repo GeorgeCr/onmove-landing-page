@@ -6,7 +6,7 @@ import ServiceItem from '../ServiceItem/ServiceItem';
 export default class BenefitsArea extends React.Component {
     render() {
         return (
-            <div className="services-area-container">
+            <div id="services" className="services-area-container">
                 <h2 className="area-title">tipuri de servicii</h2>
                 <div className="services-list">
                     {
