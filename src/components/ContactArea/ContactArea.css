@@ -71,3 +71,22 @@ input{
     background-color:#F9DF5C;
     color:black;
 }
+
+@media (max-width:450px){
+    .contact-area-container{
+        padding:20px 30px;
+    }
+    .contact-details-wrapper{
+       grid-template-columns: 1fr;
+       grid-template-rows: 1fr 1fr;
+    }
+    .phone,.email,.address,.postal-code,.subscribe{
+        font-size: 16px;
+    }
+    .left-details,.right-details{
+        margin-top:30px;
+    }
+    input{
+        width:300px;
+    }
+}

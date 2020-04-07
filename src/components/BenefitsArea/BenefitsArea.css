@@ -12,3 +12,14 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 30px;
 }
+
+@media (max-width:450px){
+    .benefits-area-container{
+        padding: 20px 30px;
+    }
+    .benefits-list{
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+     }
+}
+    

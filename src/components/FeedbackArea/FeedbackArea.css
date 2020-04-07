@@ -11,3 +11,13 @@
 .feedback-wrapper{
     display: flex;
 }
+
+@media (max-width:450px){
+    .feedback-area-container{
+        padding:20px 30px;
+    }
+    .feedback-wrapper{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
